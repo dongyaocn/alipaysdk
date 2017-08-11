@@ -1,0 +1,27 @@
+{
+    "name": "dongyao/alipaysdk",
+    "description": "支付宝支付",
+    "license": "MIT",
+    "authors": [{
+        "name": "董垚",
+        "email": "dong_yao_cn@163.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/console": "~5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/cache": "~5.0"
+    },
+    "require-dev": {
+        "illuminate/database": "~5.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-4": {
+            "AlipaySdk\\": "src/AlipaySdk/"
+        }
+    }
+}
